@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies</title>
+
+    <link rel="stylesheet" href="./dist/css/main.min.css">
+
+    <link rel="stylesheet" href="./dist/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./dist/css/owl.theme.default.css">
+    <link href="https://fonts.googleapis.com/css?family=Trade+Winds&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./dist/css/all.css">
+</head>
+
+<body>
+
+    <div class="banner">
+        <!-- start navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">Mov<span>ies</span></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="col-12 col-md-9 mb-lg-0 mb-3">
+                        <form action="" method="POST">
+                            <div class="input-group">
+                                <input type="text" class="form-control bg-transparent border-0" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                <div class="input-group-append">
+                                    <span class="input-group-text bg-transparent border-0" id="basic-addon2"><i class="fas fa-search text-primary"></i></span>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <ul class="navbar-nav ml-auto">
+                        <a class="btn btn-primary mr-0 mr-lg-3 mb-lg-0 mb-3" href="register.html">Register</span></a>
+                        <a class="btn btn-outline-primary" href="login.html">Login</a>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- end navbar -->
+
+        <div class="movies owl-carousel">
+            <div class="movie d-flex justify-content-center align-items-center item">
+                <div class="movie__bg" style="background: linear-gradient(rgba(0,0,0, 0.8), rgba(0,0,0, 0.7)), url('dist/images/bg-site.jpg') no-repeat; background-size: cover"> </div>
+                <div class="container">
+                    <div class="row my-8">
+                        <div class="col-lg-6 ">
+                            <div class="d-flex justify-content-between">
+                                <h1 class="moive__name text-white text-capitalize">Avenger</h1>
+                                <div class="movie__year align-self-center">2017</div>
+                            </div>
+                            <div class="d-flex move__star mb-2">
+                                <div class="d-flex my-2">
+                                    <i class="fas fa-star text-primary"></i>
+                                    <i class="fas fa-star text-primary"></i>
+                                    <i class="fas fa-star text-primary"></i>
+                                    <i class="fas fa-star text-primary"></i>
+                                    <i class="fas fa-star text-primary"></i>
+                                    <span class="align-self-center">8.7</s>
+                                </div>
+                            </div>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+                                a type specimen book</p>
+                            <div class="movie__cta my-2">
+                                <a href="#" class="btn btn-outline-primary"><i class="fas fa-heart"></i> Add to favourite</a>
+                                <a href="#" class="btn btn-primary"><i class="fas fa-play"></i> Watch now</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 d-flex justify-content-center">
+                            <img src="./dist/images/TheAvengers2012Poster.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="movie d-flex justify-content-center align-items-center item">
+                <div class="movie__bg" style="background: linear-gradient(rgba(0,0,0, 0.8), rgba(0,0,0, 0.7)), url('dist/images/56542050_458863611516619_6930999251967148032_o.jpg') no-repeat; background-size: cover"> </div>
+                <div class="container">
+                    <div class="row my-8">
+                        <div class="col-lg-6 ">
+                            <div class="d-flex justify-content-between">
+                                <h1 class="moive__name text-white text-capitalize">Avenger</h1>
+                                <div class="movie__year align-self-center">2017</div>
+                            </div>
+                            <div class="d-flex move__star mb-2">
+                                <div class="d-flex my-2">
+                                    <i class="fas fa-star text-primary"></i>
+                                    <i class="fas fa-star text-primary"></i>
+                                    <i class="fas fa-star text-primary"></i>
+                                    <i class="fas fa-star text-primary"></i>
+                                    <i class="fas fa-star text-primary"></i>
+                                    <span class="align-self-center">8.7</s>
+                                </div>
+                            </div>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+                                a type specimen book</p>
+                            <div class="movie__cta my-2">
+                                <a href="#" class="btn btn-outline-primary"><i class="fas fa-heart"></i> Add to favourite</a>
+                                <a href="#" class="btn btn-primary"><i class="fas fa-play"></i> Watch now</a>
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg-6 mx-auto m-md-auto d-flex justify-content-center mb-4">
+                            <img src="./dist/images/TheAvengers2012Poster.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <!-- end movies -->
+    </div>
+    <!-- end banner -->
+    <div class="listing py-5">
+        <div class="container">
+            <div class="row justify-content-between my-4">
+                <h3 class="listing__title text-white">Dram</h3>
+                <a href="#" class="text-primary text-capitalize">see all</a>
+            </div>
+            <div class="owl-carousel owl-theme movies">
+                   
+                <div class="movie">
+                   
+                    <img src="./dist/images/TheAvengers2012Poster.jpg" alt="" class="img-fluid">
+                    <div class="movie__details text-white mb-0">
+                        <div class="d-flex justify-content-between">
+                            <p class="text-capitalize mb-0">move name</p>
+                            <p class="mb-0">2019</p>
+                        </div>
+
+                        <div class="movie___rating mb-0">
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <span class="align-self-center text-white">8.7</s>
+                        </div>
+    
+                        <div class="movie__views">
+                            <p class="mb-0 text-white">Views : 20</p>
+                        </div>
+    
+                        <div class="d-flex">
+                            <a href="#" class="btn btn-primary text-capitalize flex-fill mr-2"><i class="fas fa-play"></i>   Watch</a>
+                            <i class="far fa-heart align-self-center movie__fav"></i>
+                        </div>
+                    </div>
+                  
+                   
+                </div>
+
+                <div class="movie">
+                   
+                    <img src="./dist/images/TheAvengers2012Poster.jpg" alt="" class="img-fluid">
+                    <div class="movie__details text-white mb-0">
+                        <div class="d-flex justify-content-between">
+                            <p class="text-capitalize mb-0">move name</p>
+                            <p class="mb-0">2019</p>
+                        </div>
+
+                        <div class="movie___rating mb-0">
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <span class="align-self-center text-white">8.7</s>
+                        </div>
+    
+                        <div class="movie__views">
+                            <p class="mb-0 text-white">Views : 20</p>
+                        </div>
+    
+                        <div class="d-flex">
+                            <a href="#" class="btn btn-primary text-capitalize flex-fill mr-2"><i class="fas fa-play"></i>   Watch</a>
+                            <i class="far fa-heart align-self-center movie__fav"></i>
+                        </div>
+                    </div>
+                  
+                   
+                </div>
+                <div class="movie">
+                   
+                    <img src="./dist/images/TheAvengers2012Poster.jpg" alt="" class="img-fluid">
+                    <div class="movie__details text-white mb-0">
+                        <div class="d-flex justify-content-between">
+                            <p class="text-capitalize mb-0">move name</p>
+                            <p class="mb-0">2019</p>
+                        </div>
+
+                        <div class="movie___rating mb-0">
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <span class="align-self-center text-white">8.7</s>
+                        </div>
+    
+                        <div class="movie__views">
+                            <p class="mb-0 text-white">Views : 20</p>
+                        </div>
+    
+                        <div class="d-flex">
+                            <a href="#" class="btn btn-primary text-capitalize flex-fill mr-2"><i class="fas fa-play"></i>   Watch</a>
+                            <i class="far fa-heart align-self-center movie__fav"></i>
+                        </div>
+                    </div>
+                  
+                   
+                </div>
+            
+                <div class="movie">
+                   
+                    <img src="./dist/images/TheAvengers2012Poster.jpg" alt="" class="img-fluid">
+                    <div class="movie__details text-white mb-0">
+                        <div class="d-flex justify-content-between">
+                            <p class="text-capitalize mb-0">move name</p>
+                            <p class="mb-0">2019</p>
+                        </div>
+
+                        <div class="movie___rating mb-0">
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <span class="align-self-center text-white">8.7</s>
+                        </div>
+    
+                        <div class="movie__views">
+                            <p class="mb-0 text-white">Views : 20</p>
+                        </div>
+    
+                        <div class="d-flex">
+                            <a href="#" class="btn btn-primary text-capitalize flex-fill mr-2"><i class="fas fa-play"></i>   Watch</a>
+                            <i class="far fa-heart align-self-center movie__fav"></i>
+                        </div>
+                    </div>
+                  
+                   
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- end listing -->
+    <div class="listing py-5">
+        <div class="container">
+            <div class="row justify-content-between my-4">
+                <h3 class="listing__title text-white">Action</h3>
+                <a href="#" class="text-primary text-capitalize">see all</a>
+            </div>
+            <div class="owl-carousel owl-theme movies">
+                   
+                <div class="movie">
+                   
+                    <img src="./dist/images/TheAvengers2012Poster.jpg" alt="" class="img-fluid">
+                    <div class="movie__details text-white mb-0">
+                        <div class="d-flex justify-content-between">
+                            <p class="text-capitalize mb-0">move name</p>
+                            <p class="mb-0">2019</p>
+                        </div>
+
+                        <div class="movie___rating mb-0">
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <span class="align-self-center text-white">8.7</s>
+                        </div>
+    
+                        <div class="movie__views">
+                            <p class="mb-0 text-white">Views : 20</p>
+                        </div>
+    
+                        <div class="d-flex">
+                            <a href="#" class="btn btn-primary text-capitalize flex-fill mr-2"><i class="fas fa-play"></i>   Watch</a>
+                            <i class="far fa-heart align-self-center movie__fav"></i>
+                        </div>
+                    </div>
+                  
+                   
+                </div>
+
+                <div class="movie">
+                   
+                    <img src="./dist/images/TheAvengers2012Poster.jpg" alt="" class="img-fluid">
+                    <div class="movie__details text-white mb-0">
+                        <div class="d-flex justify-content-between">
+                            <p class="text-capitalize mb-0">move name</p>
+                            <p class="mb-0">2019</p>
+                        </div>
+
+                        <div class="movie___rating mb-0">
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <span class="align-self-center text-white">8.7</s>
+                        </div>
+    
+                        <div class="movie__views">
+                            <p class="mb-0 text-white">Views : 20</p>
+                        </div>
+    
+                        <div class="d-flex">
+                            <a href="#" class="btn btn-primary text-capitalize flex-fill mr-2"><i class="fas fa-play"></i>   Watch</a>
+                            <i class="far fa-heart align-self-center movie__fav"></i>
+                        </div>
+                    </div>
+                  
+                   
+                </div>
+                <div class="movie">
+                   
+                    <img src="./dist/images/TheAvengers2012Poster.jpg" alt="" class="img-fluid">
+                    <div class="movie__details text-white mb-0">
+                        <div class="d-flex justify-content-between">
+                            <p class="text-capitalize mb-0">move name</p>
+                            <p class="mb-0">2019</p>
+                        </div>
+
+                        <div class="movie___rating mb-0">
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <span class="align-self-center text-white">8.7</s>
+                        </div>
+    
+                        <div class="movie__views">
+                            <p class="mb-0 text-white">Views : 20</p>
+                        </div>
+    
+                        <div class="d-flex">
+                            <a href="#" class="btn btn-primary text-capitalize flex-fill mr-2"><i class="fas fa-play"></i>   Watch</a>
+                            <i class="far fa-heart align-self-center movie__fav"></i>
+                        </div>
+                    </div>
+                  
+                   
+                </div>
+            
+                <div class="movie">
+                   
+                    <img src="./dist/images/TheAvengers2012Poster.jpg" alt="" class="img-fluid">
+                    <div class="movie__details text-white mb-0">
+                        <div class="d-flex justify-content-between">
+                            <p class="text-capitalize mb-0">move name</p>
+                            <p class="mb-0">2019</p>
+                        </div>
+
+                        <div class="movie___rating mb-0">
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <i class="fas fa-star text-primary"></i>
+                            <span class="align-self-center text-white">8.7</s>
+                        </div>
+    
+                        <div class="movie__views">
+                            <p class="mb-0 text-white">Views : 20</p>
+                        </div>
+    
+                        <div class="d-flex">
+                            <a href="#" class="btn btn-primary text-capitalize flex-fill mr-2"><i class="fas fa-play"></i>   Watch</a>
+                            <i class="far fa-heart align-self-center movie__fav"></i>
+                        </div>
+                    </div>
+                  
+                   
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <footer class="bg-primary text-white py-2">
+       <p class="m-0 text-center">Copyright 2019 </p> 
+       <div class="d-flex justify-content-center mr-2">
+           <a href="#" class="text-white mr-2"><i class="fab fa-facebook-f"></i> </a>
+           <a href="#"  class="text-white mr-2"><i class="fab fa-twitter"></i> </a>
+       </div>
+    </footer>
+    <script src="./dist/js/jquery.js"></script>
+    <script src="./dist/js/owl.carousel.min.js"></script>
+    <script src="./dist/js/bootstrap.min.js"></script>
+    <script src="./dist/js/main.js"></script>
+    <script>
+        $(function(){
+            $('.banner .movies').owlCarousel({
+    loop:true,
+
+    nav:false,
+  items:1,
+  dots:false,
+
+    
+});
+
+$('.listing .movies').owlCarousel({
+    loop:true,
+
+    nav:false,
+
+  dots:false,
+  margin:10,
+      
+  responsive:{
+    480:{
+            items:2,
+            nav:false
+        },
+        600:{
+            items:3,
+            nav:false
+        },
+        1000:{
+            items:4,
+            nav:true,
+            loop:false
+        }
+    }
+
+    
+});
+        });
+    </script>
+</body>
+
+</html>
