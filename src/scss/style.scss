@@ -1,2 +1,41 @@
-@import 'src/bootstrap/scss/functions';
-@import 'src/bootstrap/scss/variables';
+.navbar-site {
+    background-color: #3B5998;
+    color: #fff !important;
+    .navbar-brand {
+        width: 30px;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        i {
+            color: #3B5998;
+        }
+    }
+    .collapse {
+        height: 30px;
+        .input-group {
+            .input-group-prepend,
+            input {
+                height: 30px;
+            }
+        }
+        .navbar-nav {
+            .nav-item {
+                .nav-link {
+                    color: #fff;
+                    &:hover,
+                    &:focus {
+                        background: rgba(0, 0, 0, .1);
+                        color: inherit;
+                    }
+                }
+                .dropdown-menu {
+                    left: -200px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+}

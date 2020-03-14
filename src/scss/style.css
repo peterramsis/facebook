@@ -1,0 +1,48 @@
+.navbar-site {
+  background-color: #3B5998;
+  color: #fff !important;
+}
+.navbar-site .navbar-brand {
+  width: 30px;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.navbar-site .navbar-brand i {
+  color: #3B5998;
+}
+.navbar-site .collapse {
+  height: 30px;
+}
+.navbar-site .collapse .input-group .input-group-prepend,
+.navbar-site .collapse .input-group input {
+  height: 30px;
+}
+.navbar-site .collapse .navbar-nav .nav-item .nav-link {
+  color: #fff;
+}
+.navbar-site .collapse .navbar-nav .nav-item .nav-link:hover, .navbar-site .collapse .navbar-nav .nav-item .nav-link:focus {
+  background: rgba(0, 0, 0, 0.1);
+  color: inherit;
+}
+.navbar-site .collapse .navbar-nav .nav-item .dropdown-menu {
+  left: -200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=style.css.map */

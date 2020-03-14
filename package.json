@@ -19,5 +19,8 @@
         "gulp-sass-import": "^1.0.0",
         "gulp-sourcemaps": "^2.6.5",
         "gulp-util": "^3.0.8"
+    },
+    "dependencies": {
+        "sass-convert": "^0.5.2"
     }
 }
